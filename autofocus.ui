@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>244</width>
+    <height>200</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>AutoFocuRoutine</string>
+  </property>
+  <widget class="QPushButton" name="AutoFButton">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>40</y>
+     <width>141</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Start Autofocus</string>
+   </property>
+  </widget>
+  <widget class="QProgressBar" name="progressBarAutoFocus">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>120</y>
+     <width>118</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="maximum">
+    <number>1024</number>
+   </property>
+   <property name="value">
+    <number>24</number>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
